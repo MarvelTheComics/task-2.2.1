@@ -10,7 +10,5 @@ public interface UserDao {
    List<User> listUsers();
    void update(User user);
 
-   void add(Car car);
-   List<Car> listCars();
    List <User> searchUsers(Car car);
 }
